@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "advanced-rag-flows"
+version = "0.1.0"
+description = ""
+authors = ["gabrielrochasouza <grsouza135@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+langchain = "^0.2.16"
+langgraph = "^0.2.19"
+langchainhub = "^0.1.21"
+langchain-community = "^0.2.16"
+tavily-python = "^0.4.0"
+black = "^24.8.0"
+isort = "^5.13.2"
+pytest = "^8.3.3"
+python-dotenv = "^1.0.1"
+langchain-chroma = "^0.1.3"
+langchain-google-genai = "^1.0.10"
+google-generativeai = "^0.7.2"
+langchain-google-vertexai = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
